@@ -18,7 +18,7 @@
 #testata{
   width: 100%;
   border-bottom: 3px solid black;
-  height: 800px;
+  height: 900px;
   background-color: blue;
 
 }
@@ -93,9 +93,11 @@ li{
 /* jumbotron */
 
 .titolo{
-  margin-left: 50px;
-  margin-top: 50px;
+  margin-left: 150px;
   width: 40%;
+  height: 50%;
+  transform: translateY(50%);
+
 
 }
 /* font jumbo */
@@ -115,6 +117,7 @@ h1{
 .button-titolo{
   background-color: orange;
   text-align: center;
+  width: 300px;
   padding: 14px 16px;
   color: white;
   border: 1px solid none;
@@ -123,9 +126,9 @@ h1{
 
 header{
   background-image: url("img/jumbotron.png");
-  height: 694px;
+  height: 900px;
   background-repeat: no-repeat;
-  background-position: bottom right;
+  /* background-position: bottom right; */
   background-size: cover;
 }
 
