@@ -1,7 +1,18 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Raleway:wght@100&display=swap');
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+/* bottoni */
+.button{
+  background-color: orange;
+  text-align: center;
+  color: white;
+  border: 1px solid none;
+  border-radius: 5px;
 }
 
 #testata{
@@ -11,16 +22,119 @@
   background-color: blue;
 
 }
-
-.nav-bar{
-
+/* menufisso */
+.menu-fisso{
+  width: 100%;
+  height: 55px;
+  background: #cccccc;
+  border-bottom:1px solid black;
 }
 
-.titolo{
-  margin-left: 40px;
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li.menu-left {
+  float: left;
+  line-height: 25px;
+}
+
+li.button{
+  float: right;
+  margin:0 5px;
+}
+
+li a{
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  margin-left: 10px;
+}
+
+.fas{
+  float: right;
+}
+/* fine menu fisso */
+
+/* navbar */
+.nav-bar{
+ width: 100%;
+ height: 50px;
+ background: #f2f2f2;
+}
+
+.nav-{
+  display: inline-block;
   width: 30%;
-  height: 450px;
-  background-color: red;
+  height: 30px;
+  margin-top: 10px;
+  margin-left: 30px;
+}
+
+li{
+  float: right;
+}
+
+.nav-2{
+  display: inline;
+}
+
+/* #navigation{
+  width: 100%;
+  display: inline-block;
+  margin-left: 50px;
+} */
+
+/* jumbotron */
+
+.titolo{
+  margin-left: 50px;
+  margin-top: 50px;
+  width: 40%;
+
+}
+/* font jumbo */
+h1{
+  font-family: 'Balsamiq Sans', cursive;
+  font-size: 40px;
+}
+.p-titolo{
+  font-family: 'Baloo 2', cursive;
+  font-size: 20px;
+}
+.p-copy{
+  font-family: 'Raleway', sans-serif;
+  font-size: 10px;
+}
+
+.button-titolo{
+  background-color: orange;
+  text-align: center;
+  padding: 14px 16px;
+  color: white;
+  border: 1px solid none;
+  border-radius: 5px;
+}
+
+header{
+  background-image: url("img/jumbotron.png");
+  height: 694px;
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  background-size: cover;
+}
+
+
+
+/* parte centrale */
+#centrale{
+  width: 80%;
+  margin: 0 9%;
 }
 
 .cubo{
@@ -48,7 +162,7 @@
 }
 
 .colonna{
-  width: 20%;
+  width: calc(100% / 5);
   height: 200px;
   margin-top: 5%;
   margin-left: 10%;
